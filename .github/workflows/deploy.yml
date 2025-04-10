@@ -26,6 +26,7 @@ jobs:
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./public
+          
       - name: upload build files(optional step)
         uses: actions/upload-artifact@v3
         with:
